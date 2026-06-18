@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights / checkpoints (host these on HF Hub instead)
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# Datasets (too large / licensed — load from HF Hub)
+*.csv.gz
+data/
+datasets/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# HuggingFace / API tokens — never commit these
+.cache/
+hf_token*
+*.token
