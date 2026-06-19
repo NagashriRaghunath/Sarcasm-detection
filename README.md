@@ -1,7 +1,5 @@
 # BESSTIE Sarcasm Detection — Cross-Variety NLP
 
-COMM061 NLP Coursework, Group PG19 — University of Surrey.
-
 A sarcasm detection system that compares two fine-tuning approaches across three English varieties (en-UK, en-AU, en-IN), trained on the [BESSTIE-CW-26 dataset](https://huggingface.co/datasets/surrey-nlp/BESSTIE-CW-26):
 
 - **RoBERTa-base** with full fine-tuning
